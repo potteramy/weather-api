@@ -18,8 +18,8 @@ header {
 .body{
   margin: 10px;
   padding: 5px;
-  /* display: flex;
-  align-items: column; */
+  display: flex;
+  flex-direction: row;
 }
 .searches {
 margin:5px;
@@ -31,4 +31,11 @@ margin:5px;
 }
 .fiveDay {
   margin:5px;
+  height: 100px;
+  width: 100px;
+  border: 1px;
+  align-items: row ;
+}
+.forcast-day {
+
 }
