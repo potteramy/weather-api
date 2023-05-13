@@ -15,15 +15,22 @@ header {
   margin: 5px;
 }
 
-.body{
+main {
   margin: 10px;
   padding: 5px;
   display: flex;
   flex-direction: row;
 }
+.searchedContainer {
+display: block;
+}
+.resultContainer{
+
+}
 .searches {
 margin:5px;
-  
+display: flex;
+flex-direction: column;
 }
 .todayWeather {
   margin:5px;
@@ -31,11 +38,9 @@ margin:5px;
 }
 .fiveDay {
   margin:5px;
-  height: 100px;
-  width: 100px;
   border: 1px;
-  align-items: row ;
+  display:flex;
 }
-.forcast-day {
-
+.searches .btn {
+  margin-top: 5px;
 }

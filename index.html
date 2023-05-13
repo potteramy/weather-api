@@ -15,27 +15,28 @@
 </head>
 
 <body>
-
   <header>
     <h1>Weather Dashboard</h1>
   </header>
   <main>
-    <h2>Search Weather by City:</h2>
-    <div class="searchesContainer"></div>
-    <form>
-      <input type="text" id="search-bar" placeholder="Minneapolis" />
-      <div></div>
-      <button type="button" id="submit-button" class="btn btn-primary">Search</button>
-    </form>
-    <div class="searches"></div>
-    </div>
-    <div class="todayContainer">
-      <div class="todayWeather"></div>
-    </div>
+    <div class="searchedContainer">
+      <h2>Search Weather by City:</h2>
+      <div class="searchesContainer"></div>
+      <form>
+        <input type="text" id="search-bar" placeholder="Minneapolis" />
+        <div></div>
+        <button type="button" id="submit-button" class="btn btn-primary">Search</button>
+      </form>
 
-    <div class="fiveContainer">
-      <div class="container-sm fiveDay">5-Day Forecast:</div>
-      
+      <h3>Previous Searches:</h3>
+      <div class="searches"></div>
+    </div>
+    </div>
+    <div class="resultContainer">
+      <div class="todayWeather"></div>
+
+      <div class="container-md fiveDay"></div>
+    </div>
     </div>
     </div>
   </main>
